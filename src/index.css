@@ -40,3 +40,22 @@ code {
   padding: 10px;
   border-radius: 1.2rem;
 }
+.main__container {
+  margin: 0.625rem;
+  border: 1px solid #343434;
+  min-height: 50vh;
+  text-align: left;
+  padding: 0.625rem;
+}
+.main__section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.card__img {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+}
